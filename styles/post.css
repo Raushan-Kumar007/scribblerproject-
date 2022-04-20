@@ -1,0 +1,54 @@
+.post-wrapper {
+    margin: 8px auto;
+    width: 80%;
+  }
+  .post-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  #author {
+    font-size: 18px;
+  }
+  .btn-common,
+  .btn-common:hover,
+  .btn-common:focus {
+    border-radius: 0;
+    background-color: red;
+    border: none;
+    padding: 5px 15px;
+  }
+  .editable {
+    outline: 1px solid pink;
+  }
+  .author-edit-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .post-content {
+    margin-bottom: 20px;
+  }
+  #likeText {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  #commentBox {
+    width: 100%;
+    min-height: 100px;
+  }
+  .comment-button {
+    margin-bottom: 20px;
+  }
+  .all-comments {
+    font-weight: bold;
+  }
+  #comments-wrapper {
+    background-color: lightgray;
+    padding: 20px 5px;
+  }
+  #comments-wrapper p {
+    background-color: white;
+    padding: 20px 10px;
+  }

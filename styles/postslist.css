@@ -1,0 +1,75 @@
+body {
+    background-color: #ffeedd;
+  }
+  .posts-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 5%;
+  }
+  .post {
+    width: 45%;
+    margin: 15px auto;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px #ccc;
+  }
+  .post:hover {
+    box-shadow: 0 0 20px 10px #ccc;
+  }
+  .post .username{
+    background-color: white;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .post .username p {
+    color: #838383;
+    font-weight: bold;
+  }
+  .post .content-wrapper {
+    background-color: #ededed;
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .post .content-wrapper .title {
+    color: #838383;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .post .content-wrapper .title p {
+    margin: 0 10px 0 0;
+  }
+  .post .content-wrapper .content {
+    line-height: 1.2em;
+    height: 3.6em;
+    overflow: hidden;
+  }
+  .fa-trash,
+  .fa-ellipsis-h {
+    color: #838383;
+    float: right;
+    cursor: pointer;  
+  } 
+  #deletePostmodal .modal-content {
+    width: 24%;
+    margin: 15% auto;
+  }
+  .button-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  #deletePostmModal .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  #deletePostmodal .button-wrapper button {
+    padding: 5px 20px;
+    border-radius: 0;
+    justify-content:space-between;
+  }
