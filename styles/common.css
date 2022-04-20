@@ -1,0 +1,69 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+#title #heading {
+  font-family: "Montez", cursive;
+  color: blue;
+  font-size: 30px;
+  margin: 0;
+}
+#title #sub-heading {
+  font-family: "Ubuntu Mono", monospace;
+  margin: 0;
+}
+
+#button-wrapper button {
+  background-color: blue;
+  padding: 5px 15px;
+  color: white;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden; 
+    background-color: rgb(0, 0, 0); 
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+  
+ 
+  .modal-content {
+    background-color: #ffffff;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%; 
+    border-radius: 0;
+  }
+  .modal-content .modal-header{
+    margin: 0;
+  }
+   
+  .close-icon {
+    float: right;
+    cursor: pointer;
+  }
+  .not-member {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .not-member span {
+    color: blue;
+    cursor: pointer;
+  }
